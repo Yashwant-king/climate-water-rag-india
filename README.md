@@ -84,4 +84,4 @@ Based on a recent run of the evaluation suite (`report_generator.py`), the syste
 - **Chunk Crossover**: During evaluation, I found that standard chunking (e.g., splitting strictly by length) often severed crucial statistical linkages. Using `RecursiveCharacterTextSplitter` and bumping the size to 800 preserved "statistical semantic coherence" brilliantly.
 - **Multi-Document Scaling**: Originally relying on 1-2 documents led to generic retrieval. Splitting the domain into 7 highly-specific documents forces the FAISS index to do actual "needle-in-a-haystack" work, which perfectly stress-tests the real capabilities of the RAG.
 
-[Your Name] | AI Engineer Intern
+[Yashwant Singh Chauhan] | AI Engineer Intern
